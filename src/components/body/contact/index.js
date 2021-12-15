@@ -12,7 +12,7 @@ function Contact() {
                 <div className='contact-left'>
                     <p>Want to get in touch?</p>
                     <p><FontAwesomeIcon icon="phone"/> : 8299722562</p>
-                    <a href='mailto:kjitendra561@gmail.com'><FontAwesomeIcon icon="envelope"/> : kjitendra561@gmail.com</a>
+                    <a href='mailto:contact@jitendra-kumar.com'><FontAwesomeIcon icon="envelope"/> : contact@jitendra-kumar.com</a>
                 </div>
                 <div className='download'>
                     <a download href={require('../../../assets/resume.docx').default}>

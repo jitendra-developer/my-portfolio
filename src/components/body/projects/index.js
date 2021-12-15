@@ -1,6 +1,5 @@
 import React from 'react';
 import './projects.css';
-import ProjectCard from './project-card';
 import { ProjectData } from '../../../assets/data/projects';
 import ProjectCard2 from './project-card2';
 import Seprator from '../../common/seprator';

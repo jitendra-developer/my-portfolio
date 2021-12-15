@@ -2,9 +2,17 @@
     padding: 12px;
     padding-bottom: 36px;
 }
+#projects-mobile{
+    display: none;
+}
 @media only screen and (max-width: 720px) {
    .body{
     margin-top: 48px;
    }
-    
+   #projects{
+       display: none;
+   }
+    #projects-mobile{
+        display: block;
+    }
 }

@@ -15,7 +15,6 @@ function Projects() {
                 {data.map((project)=>{
                     return <ProjectCard2 project={project}/>
                 })}
-
             </div>
         </div>
     )

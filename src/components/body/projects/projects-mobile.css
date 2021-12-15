@@ -1,0 +1,22 @@
+.projects-mobile{
+    width: 100%;
+}
+.section-title {
+    display: flex;
+    align-items: center;
+
+}
+.cards-container-wrapper-mobile .swiper-container{
+    width: 300px;
+    margin-top: 36px;
+    /* display: flex;
+    justify-content: space-evenly;
+    ; */
+}
+@media only screen and (max-width: 720px){
+    .cards-container-wrapper{
+        /* flex-direction: column;
+        align-items: center;
+        gap: 20px; */
+    }
+}

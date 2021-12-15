@@ -6,6 +6,7 @@ import Work from './work';
 import Projects from './projects';
 import About from './about';
 import Education from './education';
+import ProjectsMobile from './projects/projects-mobile';
 function Body() {
     return (
         <div className='body'>
@@ -13,7 +14,10 @@ function Body() {
                 <About/>
             </section>
             <section id="projects">
-                <Projects/>
+                <Projects />
+            </section>
+            <section id="projects-mobile">
+                <ProjectsMobile />
             </section>
             <section id="skills">
                 <Skills/>

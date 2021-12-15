@@ -1,0 +1,42 @@
+.education-card{
+    display: flex;
+    justify-content: center;
+    /* //align-items: center; */
+    width: 45%;
+    /* //background-color: #d0d0f4; */
+    box-shadow: 0px 0px 15px -5px;
+    border-radius: 6px;
+}
+.education-container{
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    padding-bottom: 24px;
+    gap: 6px;
+    margin-top: 16px;
+}
+.education-college{
+    text-decoration: none;
+}
+.education-title{
+    font-size: 20px;
+}
+.education-dates{
+    color: gray;
+}
+.education-desc{
+    text-align: left;
+    max-width: 80%;
+}
+@media only screen and (max-width:720px) {
+    .education-card{
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .education-card:first-child{
+        margin-bottom: 20px;
+    }
+    .education-title{
+        font-size: 18px;
+    }
+}

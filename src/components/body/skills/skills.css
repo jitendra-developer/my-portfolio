@@ -1,0 +1,18 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.section-title{
+    font-size: 24px;
+    font-weight: 600;
+    width: 100%;
+}
+.skills-section{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 70%;
+    justify-content: center;
+}
